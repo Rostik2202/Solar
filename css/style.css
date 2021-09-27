@@ -1,0 +1,424 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #303030;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.title {
+    margin-bottom: 60px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #868585;
+    text-transform: uppercase;
+}
+
+.header {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 70px 10px 37px;
+    align-items: center;
+    margin-bottom: 150px;
+    color: #fff;
+}
+
+.content__title {
+    margin-top: auto;
+    margin-bottom: 50px;
+}
+
+.header__subtitle {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__title {
+    font-size: 64px;
+    font-weight: 700px;
+    line-height: 87px;
+}
+
+.header__title span {
+    display: flex;
+    justify-content: space-around;
+    font-size: 42px;
+    line-height: 57px;
+}
+
+.button__text {
+    font-size: 18px;
+    line-height: 24px;
+    display: inline-block;
+    transform: translate(-57px, -17px);
+}
+
+.button__path {
+    transition: fill.5s;
+}
+
+.button:hover .button__path {
+    fill: #a9a32a;
+}
+
+.content__button {
+    margin-bottom: auto;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social__item + .social__item {
+    margin-left: 20px;
+}
+
+.services {
+    margin-bottom: 150px;
+}
+
+.services__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__box {
+    flex-basis: 510px;
+    margin-right: 90px;
+}
+
+.services__content {
+    margin-bottom: 50px;
+}
+
+.services__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.services__images {
+    object-fit: cover;
+}
+
+.green {
+    margin-bottom: 150px;
+}
+
+.green__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.green__inner-box {
+    margin-right: 90px;
+    flex-basis: 510px;
+}
+
+.green__inner-content {
+    flex-basis: 600px;
+}
+.green__content-text {
+    font-weight: 700;
+    margin-bottom: 17px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.green__tabs {
+    margin-bottom: 100px;
+}
+
+.green__tabs-item {
+    margin-bottom: 125px;
+}
+
+.green__item-button {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 3px;
+}
+
+.green__item-button--active {
+    border-bottom: 1px solid #303030;
+}
+
+.green__item-button + .green__item-button {
+    margin-left: 40px;
+}
+
+.green-content-item {
+    display: none;
+}
+
+.green-content-item--active {
+    display: block;
+}
+
+.green__slider {
+    max-width: 510px;
+}
+
+.green__slider-imges {
+    margin-right: 40px;
+    float: left;
+}
+
+.green__slider-text {
+    padding-bottom: 15px;
+}
+
+.slick-arrow {
+    position: absolute;
+    bottom: -3px;
+    left: 278px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.slick__right {
+    left: 340px;
+}
+
+.path__right:hover {
+    fill: #a9a32a;
+}
+.path__left:hover {
+    fill: #a9a32a;
+}
+
+.green__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.green__item {
+    flex-basis: 235px;
+    margin-bottom: 18px;
+}
+
+.green__iten-title {
+    font-size: 18px;
+    font-weight: 700px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.quote {
+    min-height: 500px;
+    margin-bottom: 150px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 128px 20px 144px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.quote__text {
+    color: #fff;
+    font-size: 42px;
+    line-height: 57px;
+    text-align: center;
+    max-width: 673px;
+}
+
+.clients {
+    margin-bottom: 150px;
+}
+
+.clients__slider {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.clients__slider-content {
+    flex-basis: 600px;
+}
+
+.clients__images {
+    flex-basis: 510px;
+    margin-right: 90px;
+}
+
+.clients__slider-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.clients__slider-text {
+    margin-left: 50px;
+}
+
+.clients__slider-text + .clients__slider-text {
+    margin-top: 15px;
+}
+
+.clients__button {
+    margin-top: 65px;
+}
+
+.steps {
+    margin-bottom: 150px;
+}
+
+.steps__inner {
+    display: flex;
+}
+
+.steps__list {
+    flex-basis: 510px;
+}
+
+.steps__content {
+    margin-right: 90px;
+}
+
+.steps__images {
+    flex-basis: 600px;
+    object-fit: cover;
+}
+
+.steps__list-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 2px;
+    margin-top: 11px;
+}
+
+.steps__list-text {
+    margin-bottom: 30px;
+}
+
+.steps__list {
+    list-style: none;
+    counter-reset: number;
+}
+
+.steps__list-item {
+    counter-increment: number;
+}
+
+.steps__list-item::before {
+    content: "0" counter(number);
+    color: #868585;
+}
+
+.steps__list-item:nth-child(n + 10)::before {
+    content: counter(number);
+}
+/* щоб після 10 йшло без 0 */
+
+.footer {
+    color: #fff;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 70px 10px 50px;
+}
+
+.footer__title {
+    color: #fff;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.footer__left {
+    flex-basis: 510px;
+    margin-right: 90px;
+}
+
+.footer__right {
+    flex-basis: 600px;
+}
+
+.footer__form input {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.footer__form input::placeholder {
+    color: #fff;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: "Noto Sans", sans-serif;
+
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+}
+.footer-button__text {
+    color: #fff;
+}
+
+.footer__button {
+    cursor: pointer;
+    padding: 0;
+}
+
+.footer__buttom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-list__item {
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.right-list-tel {
+    display: block;
+}
+
+.footer__buttom-link {
+    padding-top: 6px;
+}
+
+
